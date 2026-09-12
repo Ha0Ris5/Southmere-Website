@@ -1,0 +1,94 @@
+<svg viewBox="0 0 1200 500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMax slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#14204c"/>
+      <stop offset="55%" stop-color="#233a7a"/>
+      <stop offset="100%" stop-color="#3a56a8"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2f7a4f"/>
+      <stop offset="100%" stop-color="#245f3e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="500" fill="url(#sky)"/>
+
+  <!-- sun -->
+  <circle cx="1030" cy="90" r="60" fill="#d3a625" opacity="0.9"/>
+  <circle cx="1030" cy="90" r="95" fill="#d3a625" opacity="0.15"/>
+
+  <!-- distant hills -->
+  <path d="M0,330 Q200,290 420,325 T900,320 T1200,335 V500 H0 Z" fill="#1b2e63" opacity="0.6"/>
+
+  <!-- ground -->
+  <rect x="0" y="400" width="1200" height="100" fill="url(#ground)"/>
+
+  <!-- main school building -->
+  <g>
+    <rect x="330" y="230" width="540" height="175" fill="#f4ede1"/>
+    <rect x="330" y="230" width="540" height="18" fill="#8f1c47"/>
+    <!-- roof -->
+    <polygon points="310,230 600,150 890,230" fill="#8f1c47"/>
+    <!-- clock tower -->
+    <rect x="565" y="90" width="70" height="150" fill="#f4ede1"/>
+    <polygon points="555,90 600,55 645,90" fill="#8f1c47"/>
+    <circle cx="600" cy="140" r="26" fill="#14204c"/>
+    <circle cx="600" cy="140" r="22" fill="#f4ede1"/>
+    <line x1="600" y1="140" x2="600" y2="124" stroke="#14204c" stroke-width="3" stroke-linecap="round"/>
+    <line x1="600" y1="140" x2="612" y2="140" stroke="#14204c" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- windows row 1 -->
+    <g fill="#233a7a">
+      <rect x="360" y="270" width="42" height="55" rx="3"/>
+      <rect x="430" y="270" width="42" height="55" rx="3"/>
+      <rect x="500" y="270" width="42" height="55" rx="3"/>
+      <rect x="658" y="270" width="42" height="55" rx="3"/>
+      <rect x="728" y="270" width="42" height="55" rx="3"/>
+      <rect x="798" y="270" width="42" height="55" rx="3"/>
+    </g>
+    <!-- window mullions -->
+    <g stroke="#f4ede1" stroke-width="3">
+      <line x1="381" y1="270" x2="381" y2="325"/>
+      <line x1="451" y1="270" x2="451" y2="325"/>
+      <line x1="521" y1="270" x2="521" y2="325"/>
+      <line x1="679" y1="270" x2="679" y2="325"/>
+      <line x1="749" y1="270" x2="749" y2="325"/>
+      <line x1="819" y1="270" x2="819" y2="325"/>
+    </g>
+
+    <!-- entrance -->
+    <rect x="565" y="330" width="70" height="75" fill="#14204c"/>
+    <rect x="580" y="345" width="16" height="60" fill="#f4ede1"/>
+    <rect x="604" y="345" width="16" height="60" fill="#f4ede1"/>
+    <polygon points="555,330 600,300 645,330" fill="#d3a625"/>
+
+    <!-- low side windows -->
+    <g fill="#233a7a">
+      <rect x="360" y="345" width="42" height="40" rx="3"/>
+      <rect x="430" y="345" width="42" height="40" rx="3"/>
+      <rect x="728" y="345" width="42" height="40" rx="3"/>
+      <rect x="798" y="345" width="42" height="40" rx="3"/>
+    </g>
+  </g>
+
+  <!-- trees -->
+  <g>
+    <rect x="150" y="360" width="14" height="45" fill="#5b3a22"/>
+    <circle cx="157" cy="345" r="38" fill="#2f7a4f"/>
+    <circle cx="130" cy="365" r="28" fill="#2f7a4f"/>
+    <circle cx="190" cy="365" r="28" fill="#2f7a4f"/>
+
+    <rect x="1010" y="365" width="12" height="40" fill="#5b3a22"/>
+    <circle cx="1016" cy="350" r="32" fill="#2f7a4f"/>
+    <circle cx="990" cy="368" r="24" fill="#2f7a4f"/>
+    <circle cx="1042" cy="368" r="24" fill="#2f7a4f"/>
+  </g>
+
+  <!-- simple children silhouettes walking toward entrance -->
+  <g fill="#f4ede1">
+    <circle cx="480" cy="392" r="8"/>
+    <rect x="474" y="400" width="12" height="20" rx="4"/>
+    <circle cx="720" cy="395" r="7"/>
+    <rect x="715" y="402" width="10" height="17" rx="4"/>
+  </g>
+</svg>
