@@ -1,4 +1,4 @@
-// Southmere Primary Academy - simple mobile nav toggle (no frameworks)
+// Southmere Primary Academy - simple mobile nav toggle 
 document.addEventListener('DOMContentLoaded', function () {
   var toggle = document.querySelector('.nav-toggle');
   var nav = document.querySelector('.main-nav');
